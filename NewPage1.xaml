@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+             x:Class="MauiApp14.NewPage1"
+           
+            CanBeDismissedByTappingOutsideOfPopup="False">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <VerticalStackLayout>
+                <ImageButton x:Name="A" Clicked="A_Clicked" Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200"></ImageButton>
+                <Label Text="A"></Label>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <ImageButton x:Name="B" Clicked="A_Clicked" Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200"></ImageButton>
+                <Label Text="B"></Label>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <ImageButton x:Name="C" Clicked="A_Clicked" Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200"></ImageButton>
+                <Label Text="C"></Label>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+        <Button Clicked="Button_Clicked" WidthRequest="600" HeightRequest="200" Text="Close"></Button>
+    </VerticalStackLayout>
+</mct:Popup>
